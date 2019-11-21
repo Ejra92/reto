@@ -1,4 +1,5 @@
 @import "./header/header.css";
+@import "./body/about.css";
 @import "./body/hero.css";
 
 * {

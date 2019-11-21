@@ -1,6 +1,6 @@
 .hero {
   width: 100%;
-  height: auto;
+  height: 140vh;
   overflow: hidden;
 }
 
@@ -24,7 +24,7 @@
 .hero-container {
   display: flex;
   justify-content: center;
-  height: 120vh;
+  height: auto;
   padding-top: 6rem;
 }
 
