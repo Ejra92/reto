@@ -1,7 +1,12 @@
+@import "./header/header.css";
+@import "./body/hero.css";
+
 * {
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* variables css */
@@ -10,4 +15,8 @@
   --secondary-color: #ff4e56;
   --font-tittle: "Muli";
   --font-general: "Nunito Sans";
+}
+
+a {
+  color: inherit;
 }
