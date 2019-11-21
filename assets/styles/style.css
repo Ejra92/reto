@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* variables css */
+:root {
+  --main-color: #3b04db;
+  --secondary-color: #ff4e56;
+  --font-tittle: "Muli";
+  --font-general: "Nunito Sans";
+}
