@@ -71,10 +71,10 @@
   margin-right: 0.5rem;
   border-radius: 40px;
   cursor: pointer;
+  transition: all 0.5s;
 }
 
 .hero-container-txt button:hover {
   background-color: #fff;
   color: var(--main-color);
-  transition: all 0.5s;
 }

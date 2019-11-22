@@ -6,6 +6,7 @@
   padding: 8rem 0;
 }
 
+/* estilos para el cuadro de texto y sus hijos directos */
 .about-container-text {
   width: 40%;
   align-self: flex-start;
@@ -68,7 +69,14 @@
   cursor: pointer;
   font-family: var(--font-tittle);
   font-weight: 600;
+  transition: all 0.5s;
 }
+
+.about-container-text button:hover {
+  background-color: var(--main-color);
+}
+
+/* estilos para el cuadro de img y su etiqueta hijo */
 
 .about-container-img {
   width: 40%;

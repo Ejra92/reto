@@ -1,6 +1,9 @@
+/* Se Importan los estilos por seccion */
 @import "./header/header.css";
 @import "./body/about.css";
 @import "./body/hero.css";
+@import "./body/features.css";
+@import "./body/demo.css";
 
 * {
   box-sizing: border-box;
