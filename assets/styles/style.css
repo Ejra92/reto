@@ -4,6 +4,8 @@
 @import "./body/hero.css";
 @import "./body/features.css";
 @import "./body/demo.css";
+@import "./body/choose.css";
+@import "./body/product.css";
 
 * {
   box-sizing: border-box;
