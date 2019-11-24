@@ -71,3 +71,12 @@
   padding-bottom: 1rem;
   font-weight: 600;
 }
+
+.product-item div > a {
+  font-family: var(--font-general);
+  text-decoration-line: underline;
+}
+
+.product-item div > a:hover {
+  color: var(--main-color);
+}

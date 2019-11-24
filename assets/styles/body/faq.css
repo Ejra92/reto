@@ -1,0 +1,129 @@
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  font-family: var(--font-tittle);
+  padding: 6rem 0;
+}
+
+.faq h2 {
+  color: var(--main-color);
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.faq h3 {
+  color: rgb(19, 19, 78);
+  font-size: 2rem;
+  width: 54%;
+  padding-bottom: 1rem;
+}
+
+.faq > p {
+  font-family: var(--font-general);
+  padding-bottom: 2rem;
+  width: 55%;
+  line-height: 2rem;
+}
+
+.faq-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.faq-container-txt {
+  width: 60%;
+  text-align: left;
+}
+
+.faq-container-txt > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.faq-container-txt > div label {
+  position: relative;
+  display: inline-block;
+  height: 45px;
+  width: 100%;
+  padding-left: 3rem;
+  color: rgb(19, 19, 78);
+  box-shadow: 0 1px 0 0 rgba(19, 19, 78, 0.15);
+  transition: all 0.25s;
+  cursor: pointer;
+}
+
+.faq-container-txt > div label::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: 1rem;
+  width: 30px;
+  height: 30px;
+  background-image: url(../../icons/arrow-up.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.faq-container-txt > div label:hover {
+  color: var(--secondary-color);
+}
+
+.faq-container-txt > div input[type="checkbox"] {
+  display: none;
+}
+
+.faq-container-txt > div p {
+  height: 0;
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+
+.faq-container-txt > div input:checked ~ p {
+  height: 60px;
+  animation: down 1s;
+}
+
+.faq-container-txt > div input:checked ~ label::before {
+  transform: rotate(180deg);
+  left: 5px;
+}
+
+@keyframes down {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 60px;
+  }
+}
+
+.faq-container-txt > div input:not(:checked) ~ p {
+  height: 0px;
+  animation: up 1s;
+}
+
+@keyframes up {
+  0% {
+    height: 60px;
+  }
+  100% {
+    height: 0px;
+  }
+}
+
+.faq-container-img {
+  width: 40%;
+}
+
+.faq-container-img img {
+  width: 100%;
+}

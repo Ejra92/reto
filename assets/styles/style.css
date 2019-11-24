@@ -6,6 +6,8 @@
 @import "./body/demo.css";
 @import "./body/choose.css";
 @import "./body/product.css";
+@import "./body/date.css";
+@import "./body/faq.css";
 
 * {
   box-sizing: border-box;
