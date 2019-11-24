@@ -1,0 +1,112 @@
+.contact {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  padding: 6rem 0;
+  margin: auto;
+  font-family: var(--font-tittle);
+  width: 80%;
+}
+
+.contact h2 {
+  color: var(--main-color);
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 80%;
+}
+
+.contact h3 {
+  color: rgb(19, 19, 78);
+  font-size: 2rem;
+  width: 54%;
+  padding-bottom: 1rem;
+  width: 80%;
+}
+
+.contact p {
+  font-family: var(--font-general);
+  padding-bottom: 4rem;
+  line-height: 2rem;
+  width: 90%;
+}
+
+.contact-container-txt {
+  width: 100%;
+  height: 100%;
+}
+
+.field {
+  margin-bottom: 1.5rem;
+}
+
+.field h4 {
+  font-size: var(--font-tittle);
+  margin-bottom: 1rem;
+}
+
+.field ul > li {
+  font-size: var(--font-general);
+  margin-bottom: 1rem;
+}
+
+.contact-container-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 3rem 3rem;
+  box-shadow: 0 0 30px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.contact-container-form h3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.contact-container-form form {
+  height: 100%;
+  width: 100%;
+}
+
+.contact-container-form form > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  color: rgb(19, 19, 78);
+  font-weight: 600;
+}
+
+form div > label {
+  margin-bottom: 0.7rem;
+}
+
+form div > input {
+  height: 2rem;
+  font-size: 1rem;
+  padding: 1.5rem 0.6rem;
+}
+
+form div > textarea {
+  min-height: 140px;
+  max-height: 140px;
+  min-width: 100%;
+  max-width: 100%;
+  padding: 0.5rem 0.5rem;
+  font-family: var(--font-general);
+  font-size: 1rem;
+}
+
+.contact-container-form button {
+  background-color: var(--main-color);
+  color: #fff;
+  font-size: 1rem;
+  font-family: var(--font-general);
+  padding: 1rem 2.5rem;
+  border: none;
+  border-radius: 5px;
+}

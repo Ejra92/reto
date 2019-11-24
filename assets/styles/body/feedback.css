@@ -1,0 +1,163 @@
+.feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 160vh;
+  text-align: center;
+  font-family: var(--font-tittle);
+  padding: 6rem 0;
+  background-image: url("../../img/testi-bg.png");
+  background-repeat: no-repeat;
+  background-size: 133% 100%;
+  background-position: top center;
+  background-color: rgba(219, 218, 218, 0.301);
+}
+
+.feedback h2 {
+  color: var(--main-color);
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.feedback h3 {
+  color: rgb(19, 19, 78);
+  font-size: 2.5rem;
+  width: 54%;
+  padding-bottom: 2rem;
+}
+
+.feedback > p {
+  font-family: var(--font-general);
+  padding-bottom: 4rem;
+  width: 54%;
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+.feedback-container {
+  position: relative;
+  background-color: #fff;
+  width: 54%;
+}
+
+.customer-1,
+.customer-2 {
+  padding: 3.5rem;
+  transition: all 0.5s;
+}
+
+.customer-1 {
+  display: block;
+  opacity: 1;
+}
+
+.customer-2 {
+  display: none;
+  opacity: 0;
+}
+
+.customer-1 > img,
+.customer-2 > img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 2.25rem;
+  font-family: var(--font-tittle);
+}
+
+.customer-1 > p,
+.customer-2 > p {
+  line-height: 1.8rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.customer-1 > .last,
+.customer-2 > .last {
+  margin-bottom: 0;
+}
+
+.customer-1 > div,
+.customer-2 > div {
+  width: 100px;
+  height: 40px;
+  background-image: url("../../img/estrellas.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: auto;
+}
+
+.customer-1 > h4,
+.customer-2 > h4 {
+  margin-bottom: 1rem;
+}
+
+.customer-1 > p > span,
+.customer-2 > p > span {
+  color: var(--secondary-color);
+}
+
+.feedback-container > input[type="radio"] {
+  display: none;
+}
+
+.label-1 {
+  position: absolute;
+  display: block;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  bottom: -5rem;
+  left: 42.5%;
+  background-image: url("../../icons/arrow-left.svg");
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: center;
+  transform: rotate(270deg);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.label-1:hover {
+  background-color: var(--main-color);
+  background-image: url("../../icons/arrow-left2.svg");
+}
+
+.label-2 {
+  position: absolute;
+  display: block;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  bottom: -5rem;
+  right: 42.5%;
+  background-image: url("../../icons/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: center;
+  transform: rotate(90deg);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.label-2:hover {
+  background-color: var(--main-color);
+  background-image: url("../../icons/arrow-right2.svg");
+}
+
+#customer-2:checked ~ .customer-1 {
+  display: block;
+}
+
+#customer-2:checked ~ .customer-2 {
+  display: block;
+  opacity: 1;
+}
+
+#customer-2:checked ~ .customer-1 {
+  display: none;
+  opacity: 0;
+}

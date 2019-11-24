@@ -39,9 +39,9 @@
             <li class="nav-item"><a href="#">Home</a></li>
             <li class="nav-item"><a href="#features">Features</a></li>
             <li class="nav-item"><a href="#product">Product</a></li>
-            <li class="nav-item"><a href="#">Faq</a></li>
-            <li class="nav-item"><a href="#">Review</a></li>
-            <li class="nav-item"><a href="#">Contact</a></li>
+            <li class="nav-item"><a href="#faq">Faq</a></li>
+            <li class="nav-item"><a href="#review">Review</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -98,8 +98,8 @@
           <img src="./assets/img/watch-img.jpg" alt="img-reloj-gris" />
         </div>
       </section>
-      <section id="features" class="features">
-        <h2>Core Features</h2>
+      <section class="features">
+        <h2 id="features">Core Features</h2>
         <h3>
           Our product has lots of excellent core features for smart people
         </h3>
@@ -158,8 +158,8 @@
           </div>
         </div>
       </section>
-      <section id="product" class="demo">
-        <div class="demo-img-container">
+      <section class="demo">
+        <div id="product" class="demo-img-container">
           <img src="./assets/img/watch-img-2.jpg" alt="img-video" />
           <input type="radio" name="modal" id="mostrar-modal" />
           <label class="play" for="mostrar-modal"></label>
@@ -277,7 +277,7 @@
         </div>
       </section>
       <section class="faq">
-        <h2>FAQ</h2>
+        <h2 id="faq">FAQ</h2>
         <h3>Frequently asked questions</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
@@ -334,7 +334,106 @@
           </div>
         </div>
       </section>
-      <section></section>
+      <section class="feedback">
+        <h2 id="review">Customer Feedback</h2>
+        <h3>Our Clients valuable reviews about our products and service</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni soluta
+          hic dolores iste in nam illo quisquam, voluptate praesentium iusto
+          eveniet.
+        </p>
+        <div class="feedback-container">
+          <input type="radio" name="feedback" id="customer-1" />
+          <label class="label-1" for="customer-1"></label>
+          <input type="radio" name="feedback" id="customer-2" />
+          <label class="label-2" for="customer-2"></label>
+          <div class="customer-1">
+            <img
+              src="./assets/img/client-1.jpg"
+              width="100px"
+              alt="img-persona-1"
+            />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
+              sunt quam, dolor perspiciatis, exercitationem iste labore aut
+              repellat quae velit.
+            </p>
+            <div></div>
+            <h4>- Adam Smith</h4>
+
+            <p class="last"><span>product marketer</span></p>
+          </div>
+          <div class="customer-2">
+            <img src="./assets/img/client-2.jpg" alt="img-persona-2" />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
+              sunt quam, dolor perspiciatis, exercitationem iste labore aut
+              repellat quae velit.
+            </p>
+
+            <div></div>
+
+            <h4>- Shane Kyle</h4>
+
+            <p class="last"><span>affilliate marketer</span></p>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="contact-container-txt">
+          <h2 id="contact">Need Help</h2>
+          <h3>Contact with us</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+            earum ratione perspiciatis doloremque soluta hic quos aut quas
+            ipsam, culpa ut.
+          </p>
+          <div class="field">
+            <h4>Address:</h4>
+            <ul>
+              <li>Maount View, Oval Road</li>
+              <li>New York, USA</li>
+            </ul>
+          </div>
+          <div class="field">
+            <h4>Email:</h4>
+            <ul>
+              <li>support@email.com</li>
+              <li>example@support.com</li>
+            </ul>
+          </div>
+          <div class="field">
+            <h4>Phone:</h4>
+            <ul>
+              <li>+92 1234567890</li>
+              <li>+92 1234567890</li>
+            </ul>
+          </div>
+        </div>
+        <div class="contact-container-form">
+          <h3>Leave Us a Message</h3>
+          <form method="post">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Name*" />
+            </div>
+            <div>
+              <label for="email">Email Address</label>
+              <input type="text" id="email" placeholder="Enter email*" />
+            </div>
+            <div>
+              <label for="message" placeholder="write your message*"
+                >Message</label
+              >
+              <textarea
+                placeholder="Write your message*"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="button">Submit</button>
+          </form>
+        </div>
+      </section>
     </div>
     <footer></footer>
   </body>

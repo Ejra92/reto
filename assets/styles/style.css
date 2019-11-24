@@ -8,6 +8,8 @@
 @import "./body/product.css";
 @import "./body/date.css";
 @import "./body/faq.css";
+@import "./body/feedback.css";
+@import "./body/contact.css";
 
 * {
   box-sizing: border-box;
