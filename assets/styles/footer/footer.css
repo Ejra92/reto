@@ -1,0 +1,47 @@
+.footer {
+  padding: 6rem 0;
+  background-image: url("../../img//map-bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: var(--main-color);
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-footer img {
+  margin-bottom: 1rem;
+}
+
+.container-footer h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: var(--font-general);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.container-footer-social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.container-footer-social img {
+  width: 50px;
+  cursor: pointer;
+}
+
+.container-footer p {
+  color: #fff;
+  text-align: center;
+}
+
+.container-footer p > a {
+  color: #fff;
+}

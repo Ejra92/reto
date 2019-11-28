@@ -10,6 +10,7 @@
 @import "./body/faq.css";
 @import "./body/feedback.css";
 @import "./body/contact.css";
+@import "./footer/footer.css";
 
 * {
   box-sizing: border-box;
